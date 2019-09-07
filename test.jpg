@@ -1,9 +1,0 @@
-%!PS-Adobe-3.0 EPSF-3.0
-%%BoundingBox: 0 0 30 30
-
-userdict /setpagedevice undef
-save
-legal
-{ null restore } stopped { pop } if
-{ legal } stopped { pop } if
-restore
